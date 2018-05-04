@@ -27,7 +27,7 @@ import thread, time, sys, traceback
 #---------- SETTINGS -------------- 
 use_real_robot = True # Set to True to use data from the COM port, False to use demo data.
 
-com_port = "COM25"  # example: 5 == "COM6" == "/dev/tty5"
+com_port = "/dev/ttyS0"  # example: 5 == "COM6" == "/dev/tty5"
 baudrate = 115200
 #---------------------------------
 
